@@ -163,7 +163,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid #acacac;
+  /* border: 2px solid #acacac; */
+  background-color: #fff;
   margin: 1rem;
   border-radius: 2rem;
   transition: all 0.3s ease-in-out;
@@ -177,7 +178,7 @@
   width: 80px;
 }
 .tech__and__tools__card > p {
-  color: #acacac;
+  color: #212529;
 }
 
 .tech__and__tools__card:hover {
