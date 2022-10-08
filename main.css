@@ -1,23 +1,83 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-.slider {
+/* UTILITY CLASSES */
+.white__space__30__util {
+  margin-top: 30px;
+}
+
+/* Dev Purpose Style  */
+.second__row {
+  margin-bottom: 200px;
+}
+
+.main__section {
   font-family: "Poppins", sans-serif;
   background-color: #212529;
   /* background-color: red; */
   color: #fff;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: calc(100vh / 3.3);
+  /* padding-top: 15rem; */
+  padding-bottom: calc(100vh / 3);
 }
-.slider__title,
-.slider__subtitle {
+.main__section__title,
+.main__section__subtitle {
   text-align: center;
 }
-.slider__title {
+.main__section__title {
   font-weight: 600;
   font-size: 60px;
+  color: #78e0ff;
 }
-.slider__subtitle {
+.main__section__subtitle {
   font-weight: 500;
   font-size: 24px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* Second Row  */
+.slider {
+  display: flex;
+  align-items: center;
+}
+.slider__image__border {
+  border-radius: 2rem;
+}
+.slider__highlight__word {
+  color: #78e0ff;
+  /* color: #fff; */
+}
+/* Email Us Section  */
+
+.email__us__wrapper {
+  color: #fff;
+}
+.email__us__wrapper__title {
+  font-family: "Poppins", sans-serif;
+  margin-top: 2rem;
+}
+.email__us__wrapper__para {
+  /* font-family: "Poppins", sans-serif; */
+  color: #acacac;
+}
+/* .email__us__wrapper__title,
+.email__us__wrapper__para {
   margin: 2rem;
+} */
+.email__us__button {
+  background-color: #78e0ff;
+  color: #212529;
+  padding: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+.email__us__button:hover {
+  transform: scale(1.1);
+  background-color: #212529;
+  color: #fff;
+  border: 1px solid #78e0ff;
 }
