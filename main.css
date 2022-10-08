@@ -4,10 +4,16 @@
 .white__space__30__util {
   margin-top: 30px;
 }
+.color__white__util {
+  color: #fff;
+}
+.font__poppins__util {
+  font-family: "Poppins", sans-serif;
+}
 
 /* Dev Purpose Style  */
 .second__row {
-  margin-bottom: 200px;
+  margin-bottom: calc(100vh / 10);
 }
 
 .main__section {
@@ -47,23 +53,21 @@
   color: #78e0ff;
   /* color: #fff; */
 }
-/* Email Us Section  */
 
+/* Email Us Section  */
 .email__us__wrapper {
   color: #fff;
 }
 .email__us__wrapper__title {
   font-family: "Poppins", sans-serif;
   margin-top: 2rem;
+  margin-left: 1rem;
 }
 .email__us__wrapper__para {
   /* font-family: "Poppins", sans-serif; */
   color: #acacac;
+  margin: 1rem;
 }
-/* .email__us__wrapper__title,
-.email__us__wrapper__para {
-  margin: 2rem;
-} */
 .email__us__button {
   background-color: #78e0ff;
   color: #212529;
@@ -74,10 +78,21 @@
   text-decoration: none;
   border-radius: 2rem;
   transition: all 0.2s ease-in-out;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 .email__us__button:hover {
   transform: scale(1.1);
   background-color: #212529;
   color: #fff;
   border: 1px solid #78e0ff;
+}
+
+.intro__to__blockhain__title {
+  margin-bottom: 1rem;
+}
+.intro__to__blockhain__para {
+  color: #acacac;
+  display: flex;
+  justify-content: center;
 }
