@@ -217,6 +217,18 @@
 }
 
 /* web application dev  */
+
+.web__dev__title {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.web__dev__container {
+  margin-top: 2rem;
+}
+.web__dev__main__row {
+  margin-top: 20rem;
+}
 .web__dev__image {
   border-radius: 2rem;
 }
@@ -251,6 +263,10 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin-top: 4rem;
+  transition: all 0.3s ease-in-out;
+}
+.contact__us__now:hover {
+  transform: scale(1.1);
 }
 @media (max-width: 600px) {
   .web__dev__image {
@@ -280,4 +296,81 @@
     width: 40vw;
     object-fit: cover;
   }
+}
+/* Footer  */
+footer {
+  color: #fff;
+  text-align: center;
+  margin-top: 4rem;
+  font-family: "Poppins", sans-serif;
+}
+.contact__label {
+  color: #78e0ff;
+}
+.contact__para {
+  color: #acacac;
+}
+.contact__card {
+  padding: 2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact__call__now {
+  background-color: #78e0ff;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  color: #212529;
+}
+.footer__map__image {
+  height: 60vh;
+  width: 80vw;
+  object-fit: cover;
+  transition: all 0.4s ease-in-out;
+  border-radius: 4rem;
+}
+@media (min-width: 1000px) {
+  .footer__map__image {
+    width: 60vw;
+    transition: all 0.4s ease-in-out;
+  }
+}
+.policies {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #acacac;
+}
+.policies__link {
+  color: #acacac;
+  transition: all 0.4s ease-in-out;
+}
+.policies__link:hover {
+  color: #fff;
+}
+
+.policies__border {
+  border-top: 1px solid #78e0ff;
+  padding-top: 2rem;
+}
+@media (max-width: 600px) {
+  .policies {
+    text-align: left;
+  }
+}
+
+/* Social Media  */
+.social__link {
+  margin-bottom: 2rem;
+}
+.social__fb {
+  width: 15px;
+}
+.social__linkedin {
+  width: 22px;
+  margin-left: 1rem;
+}
+.social__link__wrapper {
+  display: flex;
+  justify-content: center;
 }
