@@ -140,3 +140,60 @@
   color: #fff;
   border: 2px solid #fff; */
 }
+
+/* tech__and__tools__ */
+
+.tech__and__tools > .row {
+  display: flex;
+  justify-content: center;
+}
+.tech__and__tools__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #acacac;
+  margin: 1rem;
+  border-radius: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.tech__and__tools__title {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 2rem;
+}
+.tech__and__tools__card > img {
+  width: 80px;
+}
+.tech__and__tools__card > p {
+  color: #acacac;
+}
+
+.tech__and__tools__card:hover {
+  transform: scale(1.1);
+}
+.tech__and__tools__border {
+  border-bottom: 2px solid #fff;
+}
+
+/* Schedule A call - Make a Call */
+.schedule__a__call__container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.schedule__a__call__wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #78e0ff;
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+.schedule__a__call__wrapper:hover {
+  transform: scale(1.1);
+}
+.schedule__a__call {
+  color: #212529;
+  font-weight: 600;
+}
