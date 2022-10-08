@@ -350,7 +350,7 @@ footer {
 }
 
 .policies__border {
-  border-top: 1px solid #78e0ff;
+  border-top: 2px solid #78e0ff;
   padding-top: 2rem;
 }
 @media (max-width: 600px) {
