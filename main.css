@@ -69,7 +69,14 @@
   margin: 1rem;
 }
 .email__us__button {
-  background-color: #78e0ff;
+  /* background-color: #78e0ff; */
+  background: linear-gradient(
+    45deg,
+    #7ad7f0 0%,
+    #92dff3 25%,
+    #b7e9f7 52%,
+    #dbf3fa 120%
+  );
   color: #212529;
   padding: 0.5rem;
   font-family: "Poppins", sans-serif;
@@ -77,15 +84,14 @@
   text-align: center;
   text-decoration: none;
   border-radius: 2rem;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 .email__us__button:hover {
   transform: scale(1.1);
   background-color: #212529;
-  color: #fff;
-  border: 1px solid #78e0ff;
+  font-weight: 600;
 }
 
 .intro__to__blockhain__title {
@@ -114,8 +120,14 @@
   font-family: "Poppins", sans-serif;
 }
 .blockchain__services {
-  background-color: #78e0ff;
-  /* background-color: #000ea8; */
+  /* background-color: #78e0ff; */
+  background: linear-gradient(
+    45deg,
+    #7ad7f0 0%,
+    #92dff3 25%,
+    #b7e9f7 52%,
+    #dbf3fa 120%
+  );
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -184,7 +196,13 @@
 .schedule__a__call__wrapper {
   display: flex;
   justify-content: center;
-  background-color: #78e0ff;
+  background: linear-gradient(
+    45deg,
+    #7ad7f0 0%,
+    #92dff3 25%,
+    #b7e9f7 52%,
+    #dbf3fa 120%
+  );
   padding: 1rem;
   font-family: "Poppins", sans-serif;
   border-radius: 2rem;
